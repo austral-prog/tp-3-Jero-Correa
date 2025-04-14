@@ -9,12 +9,8 @@ def check_vowels(nombre):
     }
     return resultados
 
-
-
-# Para probarlo, puedes llamar a la función:
-check_vowels()
-
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
-
+if __name__ == "__main__":
+    nombre_usuario = input("Ingresa un nombre: ")
+    resultados_usuario = check_vowels(nombre_usuario)
+    for vocal, presente in resultados_usuario.items():
+        print(f"Contiene {vocal}: {presente}")
