@@ -1,8 +1,5 @@
-def slice_advanced(texto):
-    resultado = texto[4::2]
-    return resultado
-
-if __name__ == "__main__":
-    texto_usuario = input("Ingrese texto: ")
-    resultado_usuario = slice_advanced(texto_usuario)
-    print(resultado_usuario)
+def slice_advanced():
+    texto = input("Ingresá un texto: ")
+    print("Primeros 5 caracteres:", texto[:5])
+    print("Últimos 3 caracteres:", texto[-3:])
+    print("Texto en reversa:", texto[::-1])
