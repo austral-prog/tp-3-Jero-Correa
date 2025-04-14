@@ -1,4 +1,13 @@
 def slice_advanced():
+    texto = input("Ingrese texto")
+    Resultado = texto[4::2] 
+    print(Resultado)
+    
+slice_advanced()
+
+
+    
+    
     # Código a implementar utilizando input.
 
 # Para verificar este ejercicio ejecutar el comando
