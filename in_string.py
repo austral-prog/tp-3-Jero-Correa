@@ -1,8 +1,6 @@
 def check_vowels():
-    nombre = input("Ingresá tu nombre: ")
-    nombre = nombre.lower()
-    contador = 0
-    for letra in nombre:
-        if letra in 'aeiou':
-            contador += 1
-    print(f"Tu nombre tiene {contador} vocales.")
+    nombre = input().lower()
+    for vocal in "aeiou":
+        print(f"Contiene {vocal}: {vocal in nombre}")
+
+check_vowels
