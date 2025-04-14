@@ -1,9 +1,7 @@
-def slice_advanced():
-    texto = input("Ingrese texto")
-    Resultado = texto[4::2] 
-    print(Resultado)
-    
-slice_advanced()
+def slice_every_two_from_fifth(texto):
+    resultado = texto[4::2]
+    return resultado
+
 
 
     
